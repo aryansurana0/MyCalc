@@ -2,8 +2,21 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.MyCalc" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+         <item name="colorPrimary">#00ACC1</item>
     </style>
 
     <style name="Theme.MyCalc" parent="Base.Theme.MyCalc" />
+
+    <style name="DigitButtons">
+        <item name="android:textColor">@color/brownish_red</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+
+    <style name="OperatorButtons" parent="Base.Theme.MyCalc" >
+        <item name="background">@drawable/button_roundable</item>
+        <item name="android:textColor">@color/light_grey</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
 </resources>

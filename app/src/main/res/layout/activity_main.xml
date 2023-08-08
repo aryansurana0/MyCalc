@@ -10,8 +10,8 @@
     <TextView
         android:id="@+id/inputTV"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:background="@color/lightGrey"
+        android:layout_height="200dp"
+        android:background="@color/light_grey"
         android:gravity="right|bottom"
         android:padding="12dp"
         android:textSize="48sp"
@@ -31,49 +31,54 @@
         android:id="@+id/btnsRow0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintBottom_toTopOf="@id/btnsRow1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/resultTV">
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn7"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="2dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/button_roundable"
+            style="@style/DigitButtons"
             android:text="7"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toLeftOf="@id/btn8"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn8"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="2dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/button_roundable"
+            style="@style/DigitButtons"
             android:text="8"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toRightOf="@id/btn7"
             app:layout_constraintRight_toLeftOf="@id/btn9"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn9"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="2dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/button_roundable"
+            style="@style/DigitButtons"
             android:text="9"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toRightOf="@id/btn8"
             app:layout_constraintRight_toLeftOf="@id/btnDivide"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnDivide"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="2dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/button_roundable"
+            style="@style/DigitButtons"
             android:text="/"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toRightOf="@id/btn9"
@@ -86,50 +91,54 @@
         android:id="@+id/btnsRow1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintBottom_toTopOf="@id/btnsRow2"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btnsRow0">
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn4"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="2dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/button_roundable"
+            style="@style/DigitButtons"
             android:text="4"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toLeftOf="@id/btn5"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn5"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="2dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/button_roundable"
+            style="@style/DigitButtons"
             android:text="5"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toRightOf="@id/btn4"
             app:layout_constraintRight_toLeftOf="@id/btn6"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn6"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="2dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/button_roundable"
+            style="@style/DigitButtons"
             android:text="6"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toRightOf="@id/btn5"
             app:layout_constraintRight_toLeftOf="@id/btnMultiply"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnMultiply"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="2dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/button_roundable"
+            style="@style/DigitButtons"
             android:text="*"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toRightOf="@id/btn6"
@@ -140,7 +149,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/btnsRow2"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@id/btnsRow3"
@@ -148,44 +157,48 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btnsRow1">
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn1"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="2dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/button_roundable"
+            style="@style/DigitButtons"
             android:text="1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toLeftOf="@id/btn2"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn2"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="2dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/button_roundable"
+            style="@style/DigitButtons"
             android:text="2"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toRightOf="@id/btn1"
             app:layout_constraintRight_toLeftOf="@id/btn3"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn3"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="2dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/button_roundable"
+            style="@style/DigitButtons"
             android:text="3"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toRightOf="@id/btn2"
             app:layout_constraintRight_toLeftOf="@id/btnSubtract"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnSubtract"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="2dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/button_roundable"
+            style="@style/DigitButtons"
             android:text="-"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toRightOf="@id/btn3"
@@ -196,7 +209,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/btnsRow3"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@id/btnsRow4"
@@ -204,33 +217,36 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btnsRow2">
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn0"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="2dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/button_roundable"
+            style="@style/DigitButtons"
             android:text="@string/zero"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toLeftOf="@id/btnDecimal"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnDecimal"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="2dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/button_roundable"
+            style="@style/DigitButtons"
             android:text="."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toRightOf="@id/btn0"
             app:layout_constraintRight_toLeftOf="@id/btnAdd"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnAdd"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="2dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/button_roundable"
+            style="@style/DigitButtons"
             android:text="+"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toRightOf="@id/btnDecimal"
@@ -241,7 +257,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/btnsRow4"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -249,34 +265,36 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btnsRow3">
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnClr"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="2dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/button_roundable"
+            style="@style/DigitButtons"
             android:text="CLR"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toLeftOf="@id/btnBcksp"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageButton
+        <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/btnBcksp"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="2dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/button_roundable"
+            style="@style/DigitButtons"
             android:src="@drawable/baseline_backspace_24"
             app:layout_constraintBottom_toBottomOf="parent"
-
             app:layout_constraintLeft_toRightOf="@id/btnClr"
             app:layout_constraintRight_toLeftOf="@id/btnEquals"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnEquals"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="2dp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/button_roundable"
+            style="@style/DigitButtons"
             android:text="="
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toRightOf="@id/btnBcksp"
