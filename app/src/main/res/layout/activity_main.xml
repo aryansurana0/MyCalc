@@ -10,7 +10,7 @@
     <TextView
         android:id="@+id/inputTV"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="250dp"
         android:background="@color/lightGrey"
         android:gravity="right|bottom"
         android:padding="12dp"
@@ -21,7 +21,7 @@
     <TextView
         android:id="@+id/resultTV"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:padding="12dp"
         android:textSize="36sp"
         app:layout_constraintBottom_toTopOf="@id/btnsRow0"
@@ -223,11 +223,11 @@
             android:text="."
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toRightOf="@id/btn0"
-            app:layout_constraintRight_toLeftOf="@id/btnAddition"
+            app:layout_constraintRight_toLeftOf="@id/btnAdd"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/btnAddition"
+            android:id="@+id/btnAdd"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="2dp"
