@@ -3,6 +3,7 @@
     <style name="Base.Theme.MyCalc" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <item name="colorPrimary">#00ACC1</item>
+        <item name="android:textColor">@color/brownish_red</item>
     </style>
 
     <style name="Theme.MyCalc" parent="Base.Theme.MyCalc" />
