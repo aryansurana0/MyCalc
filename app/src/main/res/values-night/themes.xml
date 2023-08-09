@@ -4,4 +4,6 @@
         <!-- Customize your dark theme here. -->
         <item name="colorPrimary">#00838F</item>
     </style>
+
+    <style name="DigitButtons." parent="DigitButtons"></style>
 </resources>
