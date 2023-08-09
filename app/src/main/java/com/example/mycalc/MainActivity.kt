@@ -1,11 +1,12 @@
 package com.example.mycalc
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import com.example.mycalc.activity.CalculatorActivity
 import com.example.mycalc.databinding.ActivityMainBinding
-import kotlin.ArithmeticException
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -13,7 +14,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var digitBtns: ArrayList<Button>
     private lateinit var operatorBtns: ArrayList<Button> // 0 -> +, 1 -> -, 2 -> *, 3 -> /
 
-    private lateinit final var OPERATORS: ArrayList<Char>
+    private lateinit var OPERATORS: ArrayList<Char>
 
     private var lastNumeric: Boolean = true
     private var lastDecimal: Boolean = false
@@ -60,6 +61,15 @@ class MainActivity : AppCompatActivity() {
         binding.btnBcksp.setOnClickListener { onBcksp(it) }
 
         binding.btnEquals.setOnClickListener { onClickingEqual(it) }
+
+        binding.goCalcBtn.setOnClickListener {
+            openCalculatorActivity()
+        }
+    }
+
+    private fun openCalculatorActivity() {
+        val intent = Intent(this, CalculatorActivity::class.java)
+        startActivity(intent)
     }
 
     private fun initializeDigitBtns() {
