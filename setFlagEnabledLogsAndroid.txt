@@ -1,0 +1,155 @@
+2023-12-22 12:41:26.526 20060-20060 SURANA                  com.titan.smartworld                 D  id 0
+2023-12-22 12:41:26.632 20060-20060 NotificationCommand     com.titan.smartworld                 D  FcNotificationConfig.Flag.OTHERS_APP: 31, FcNotificationType.OTHERS_APP: 255
+2023-12-22 12:41:26.633 20060-20060 NotificationCommand     com.titan.smartworld                 D  FcNotificationConfig.isFlagEnabled(FcNotificationConfig.Flag.OTHERS_APP): false
+2023-12-22 12:41:26.634 20060-20060 NotificationCommand     com.titan.smartworld                 D  After sending notification using FcMessageFeature.sendNotification(FcNotificationType.OTHERS_APP, "dummyTitle", "dummyText")
+2023-12-22 12:41:26.635 20060-20060 itan.smartworld         com.titan.smartworld                 V  RTSNotificationCommand.class, true, INFO
+2023-12-22 12:41:26.635 20060-20285 Fc#Operation            com.titan.smartworld                 D  QUEUED  a(174938270)
+2023-12-22 12:41:26.635 20060-20060 LogEventKt              com.titan.smartworld                 V  RTSNotificationCommand.class, true, INFO
+2023-12-22 12:41:26.636 20060-20285 Fc#Operation            com.titan.smartworld                 D  QUEUED  a(174938270)
+2023-12-22 12:41:26.637 20060-20281 Fc#Operation            com.titan.smartworld                 D  STARTED  a(174938270)
+2023-12-22 12:41:26.638 20060-20281 Fc#Operation            com.titan.smartworld                 D  STARTED  a(174938270)
+2023-12-22 12:41:26.641 20060-20281 Fc#Operation            com.titan.smartworld                 I  RUNNING  a(174938270)
+2023-12-22 12:41:26.642 20060-20281 Fc#Operation            com.titan.smartworld                 I  RUNNING  a(174938270)
+2023-12-22 12:41:26.643 20060-20283 Fc#ProtocolQueue        com.titan.smartworld                 V  sendProtocolPacket lock start
+2023-12-22 12:41:26.643 20060-20283 Fc#ProtocolQueue        com.titan.smartworld                 V  sendProtocolPacket lock start
+2023-12-22 12:41:26.645 20060-20283 Fc#FcConnection         com.titan.smartworld                 I  Send Data:AB 00 00 1B 4D A9 00 06 04 00 FF 00 16 0A 64 75 6D 6D 79 54 69 74 6C 65 00 09 64 75 6D 6D 79 54 65 78 74
+2023-12-22 12:41:26.647 20060-20283 Fc#FcConnection         com.titan.smartworld                 I  Send Data:AB 00 00 1B 4D A9 00 06 04 00 FF 00 16 0A 64 75 6D 6D 79 54 69 74 6C 65 00 09 64 75 6D 6D 79 54 65 78 74
+2023-12-22 12:41:26.648 20060-20283 RxBle#Conn...ationQueue com.titan.smartworld                 D  QUEUED   CharacteristicWriteOperation(163778431)
+2023-12-22 12:41:26.651 20060-20244 RxBle#Conn...ationQueue com.titan.smartworld                 D  STARTED  CharacteristicWriteOperation(163778431)
+2023-12-22 12:41:26.652 20060-20244 RxBle#Conn...ationQueue com.titan.smartworld                 I  RUNNING  CharacteristicWriteOperation{MAC='AA:FF:EA:00:30:59', characteristic=[uuid='0000ff02-0000-1000-8000-00805f9b34fb', hexValue=[AB, 00, 00, 1B, 4D, A9, 00, 06, 04, 00, FF, 00, 16, 0A, 64, 75, 6D, 6D, 79, 54, 69, 74, 6C, 65, 00, 09, 64, 75, 6D, 6D, 79, 54, 65, 78, 74]]}
+2023-12-22 12:41:27.091 20060-20080 RxBle#GattCallback      com.titan.smartworld                 I  MAC='AA:FF:EA:00:30:59'  onCharacteristicChanged(), value=[uuid='0000ff03-0000-1000-8000-00805f9b34fb', hexValue=[AB, 10, 00, 00, 00, 00, 00, 06]]
+2023-12-22 12:41:27.093 20060-20245 Fc#FcConnection         com.titan.smartworld                 I  Receive Data:AB 10 00 00 00 00 00 06
+2023-12-22 12:41:27.094 20060-20245 Fc#FcConnection         com.titan.smartworld                 I  Receive Data:AB 10 00 00 00 00 00 06
+2023-12-22 12:41:27.099 20060-20079 RxBle#GattCallback      com.titan.smartworld                 I  MAC='AA:FF:EA:00:30:59'    onCharacteristicWrite(), status=0, value=[uuid='0000ff02-0000-1000-8000-00805f9b34fb']
+2023-12-22 12:41:27.102 20060-20244 RxBle#Conn...ationQueue com.titan.smartworld                 D  FINISHED CharacteristicWriteOperation(163778431) in 450 ms
+2023-12-22 12:41:27.103 20060-20283 Fc#ProtocolQueue        com.titan.smartworld                 V  sendProtocolPacket lock end
+2023-12-22 12:41:27.103 20060-20283 Fc#ProtocolQueue        com.titan.smartworld                 V  sendProtocolPacket lock end
+2023-12-22 12:41:27.107 20060-20281 Fc#Operation            com.titan.smartworld                 D  FINISHED  a(174938270) in 469 ms
+2023-12-22 12:41:27.108 20060-20281 Fc#Operation            com.titan.smartworld                 D  FINISHED  a(174938270) in 469 ms
+2023-12-22 12:41:31.914 20060-20060 SURANA                  com.titan.smartworld                 D  id 1
+2023-12-22 12:41:32.028 20060-20060 NotificationCommand     com.titan.smartworld                 D  FcNotificationConfig.Flag.CALENDAR: 17, FcNotificationType.CALENDAR: 20
+2023-12-22 12:41:32.028 20060-20060 NotificationCommand     com.titan.smartworld                 D  FcNotificationConfig.isFlagEnabled(FcNotificationConfig.Flag.CALENDAR): false
+2023-12-22 12:41:32.028 20060-20060 NotificationCommand     com.titan.smartworld                 D  After sending notification using FcMessageFeature.sendNotification(FcNotificationType.CALENDAR, "dummyTitle", "dummyText")
+2023-12-22 12:41:32.029 20060-20060 itan.smartworld         com.titan.smartworld                 V  RTSNotificationCommand.class, true, INFO
+2023-12-22 12:41:32.030 20060-20260 Fc#Operation            com.titan.smartworld                 D  QUEUED  a(267253833)
+2023-12-22 12:41:32.032 20060-20260 Fc#Operation            com.titan.smartworld                 D  QUEUED  a(267253833)
+2023-12-22 12:41:32.033 20060-20281 Fc#Operation            com.titan.smartworld                 D  STARTED  a(267253833)
+2023-12-22 12:41:32.034 20060-20281 Fc#Operation            com.titan.smartworld                 D  STARTED  a(267253833)
+2023-12-22 12:41:32.035 20060-20281 Fc#Operation            com.titan.smartworld                 I  RUNNING  a(267253833)
+2023-12-22 12:41:32.039 20060-20060 LogEventKt              com.titan.smartworld                 V  RTSNotificationCommand.class, true, INFO
+2023-12-22 12:41:32.040 20060-20281 Fc#Operation            com.titan.smartworld                 I  RUNNING  a(267253833)
+2023-12-22 12:41:32.042 20060-20283 Fc#ProtocolQueue        com.titan.smartworld                 V  sendProtocolPacket lock start
+2023-12-22 12:41:32.043 20060-20283 Fc#ProtocolQueue        com.titan.smartworld                 V  sendProtocolPacket lock start
+2023-12-22 12:41:32.045 20060-20283 Fc#FcConnection         com.titan.smartworld                 I  Send Data:AB 00 00 1B 19 AE 00 07 04 00 14 00 16 0A 64 75 6D 6D 79 54 69 74 6C 65 00 09 64 75 6D 6D 79 54 65 78 74
+2023-12-22 12:41:32.048 20060-20283 Fc#FcConnection         com.titan.smartworld                 I  Send Data:AB 00 00 1B 19 AE 00 07 04 00 14 00 16 0A 64 75 6D 6D 79 54 69 74 6C 65 00 09 64 75 6D 6D 79 54 65 78 74
+2023-12-22 12:41:32.050 20060-20283 RxBle#Conn...ationQueue com.titan.smartworld                 D  QUEUED   CharacteristicWriteOperation(138366844)
+2023-12-22 12:41:32.051 20060-20244 RxBle#Conn...ationQueue com.titan.smartworld                 D  STARTED  CharacteristicWriteOperation(138366844)
+2023-12-22 12:41:32.052 20060-20244 RxBle#Conn...ationQueue com.titan.smartworld                 I  RUNNING  CharacteristicWriteOperation{MAC='AA:FF:EA:00:30:59', characteristic=[uuid='0000ff02-0000-1000-8000-00805f9b34fb', hexValue=[AB, 00, 00, 1B, 19, AE, 00, 07, 04, 00, 14, 00, 16, 0A, 64, 75, 6D, 6D, 79, 54, 69, 74, 6C, 65, 00, 09, 64, 75, 6D, 6D, 79, 54, 65, 78, 74]]}
+2023-12-22 12:41:32.494 20060-20079 RxBle#GattCallback      com.titan.smartworld                 I  MAC='AA:FF:EA:00:30:59'    onCharacteristicWrite(), status=0, value=[uuid='0000ff02-0000-1000-8000-00805f9b34fb']
+2023-12-22 12:41:32.498 20060-20244 RxBle#Conn...ationQueue com.titan.smartworld                 D  FINISHED CharacteristicWriteOperation(138366844) in 446 ms
+2023-12-22 12:41:32.498 20060-20079 RxBle#GattCallback      com.titan.smartworld                 I  MAC='AA:FF:EA:00:30:59'  onCharacteristicChanged(), value=[uuid='0000ff03-0000-1000-8000-00805f9b34fb', hexValue=[AB, 10, 00, 00, 00, 00, 00, 07]]
+2023-12-22 12:41:32.500 20060-20245 Fc#FcConnection         com.titan.smartworld                 I  Receive Data:AB 10 00 00 00 00 00 07
+2023-12-22 12:41:32.500 20060-20245 Fc#FcConnection         com.titan.smartworld                 I  Receive Data:AB 10 00 00 00 00 00 07
+2023-12-22 12:41:32.501 20060-20283 Fc#ProtocolQueue        com.titan.smartworld                 V  sendProtocolPacket lock end
+2023-12-22 12:41:32.504 20060-20283 Fc#ProtocolQueue        com.titan.smartworld                 V  sendProtocolPacket lock end
+2023-12-22 12:41:32.505 20060-20281 Fc#Operation            com.titan.smartworld                 D  FINISHED  a(267253833) in 471 ms
+2023-12-22 12:41:32.507 20060-20281 Fc#Operation            com.titan.smartworld                 D  FINISHED  a(267253833) in 471 ms
+2023-12-22 12:41:45.181 20060-20060 SURANA                  com.titan.smartworld                 D  id 13
+2023-12-22 12:41:45.283 20060-20060 NotificationCommand     com.titan.smartworld                 D  FcNotificationConfig.Flag.SMS: 1, FcNotificationType.SMS: 4
+2023-12-22 12:41:45.283 20060-20060 NotificationCommand     com.titan.smartworld                 D  FcNotificationConfig.isFlagEnabled(FcNotificationConfig.Flag.SMS): true
+2023-12-22 12:41:45.284 20060-20060 NotificationCommand     com.titan.smartworld                 D  After sending notification using FcMessageFeature.sendNotification(FcNotificationType.SMS, "dummyTitle", "dummyText")
+2023-12-22 12:41:45.285 20060-20060 itan.smartworld         com.titan.smartworld                 V  RTSNotificationCommand.class, true, INFO
+2023-12-22 12:41:45.285 20060-20273 Fc#Operation            com.titan.smartworld                 D  QUEUED  a(40254336)
+2023-12-22 12:41:45.286 20060-20273 Fc#Operation            com.titan.smartworld                 D  QUEUED  a(40254336)
+2023-12-22 12:41:45.287 20060-20281 Fc#Operation            com.titan.smartworld                 D  STARTED  a(40254336)
+2023-12-22 12:41:45.288 20060-20281 Fc#Operation            com.titan.smartworld                 D  STARTED  a(40254336)
+2023-12-22 12:41:45.290 20060-20281 Fc#Operation            com.titan.smartworld                 I  RUNNING  a(40254336)
+2023-12-22 12:41:45.294 20060-20281 Fc#Operation            com.titan.smartworld                 I  RUNNING  a(40254336)
+2023-12-22 12:41:45.294 20060-20283 Fc#ProtocolQueue        com.titan.smartworld                 V  sendProtocolPacket lock start
+2023-12-22 12:41:45.295 20060-20060 LogEventKt              com.titan.smartworld                 V  RTSNotificationCommand.class, true, INFO
+2023-12-22 12:41:45.296 20060-20283 Fc#ProtocolQueue        com.titan.smartworld                 V  sendProtocolPacket lock start
+2023-12-22 12:41:45.298 20060-20283 Fc#FcConnection         com.titan.smartworld                 I  Send Data:AB 00 00 1B 8C FA 00 08 04 00 04 00 16 0A 64 75 6D 6D 79 54 69 74 6C 65 00 09 64 75 6D 6D 79 54 65 78 74
+2023-12-22 12:41:45.298 20060-20283 Fc#FcConnection         com.titan.smartworld                 I  Send Data:AB 00 00 1B 8C FA 00 08 04 00 04 00 16 0A 64 75 6D 6D 79 54 69 74 6C 65 00 09 64 75 6D 6D 79 54 65 78 74
+2023-12-22 12:41:45.302 20060-20283 RxBle#Conn...ationQueue com.titan.smartworld                 D  QUEUED   CharacteristicWriteOperation(110460414)
+2023-12-22 12:41:45.303 20060-20244 RxBle#Conn...ationQueue com.titan.smartworld                 D  STARTED  CharacteristicWriteOperation(110460414)
+2023-12-22 12:41:45.304 20060-20244 RxBle#Conn...ationQueue com.titan.smartworld                 I  RUNNING  CharacteristicWriteOperation{MAC='AA:FF:EA:00:30:59', characteristic=[uuid='0000ff02-0000-1000-8000-00805f9b34fb', hexValue=[AB, 00, 00, 1B, 8C, FA, 00, 08, 04, 00, 04, 00, 16, 0A, 64, 75, 6D, 6D, 79, 54, 69, 74, 6C, 65, 00, 09, 64, 75, 6D, 6D, 79, 54, 65, 78, 74]]}
+2023-12-22 12:41:45.690 20060-20081 RxBle#GattCallback      com.titan.smartworld                 I  MAC='AA:FF:EA:00:30:59'  onCharacteristicChanged(), value=[uuid='0000ff03-0000-1000-8000-00805f9b34fb', hexValue=[AB, 10, 00, 00, 00, 00, 00, 08]]
+2023-12-22 12:41:45.692 20060-20245 Fc#FcConnection         com.titan.smartworld                 I  Receive Data:AB 10 00 00 00 00 00 08
+2023-12-22 12:41:45.693 20060-20245 Fc#FcConnection         com.titan.smartworld                 I  Receive Data:AB 10 00 00 00 00 00 08
+2023-12-22 12:41:45.696 20060-20081 RxBle#GattCallback      com.titan.smartworld                 I  MAC='AA:FF:EA:00:30:59'    onCharacteristicWrite(), status=0, value=[uuid='0000ff02-0000-1000-8000-00805f9b34fb']
+2023-12-22 12:41:45.698 20060-20283 Fc#ProtocolQueue        com.titan.smartworld                 V  sendProtocolPacket lock end
+2023-12-22 12:41:45.698 20060-20283 Fc#ProtocolQueue        com.titan.smartworld                 V  sendProtocolPacket lock end
+2023-12-22 12:41:45.701 20060-20281 Fc#Operation            com.titan.smartworld                 D  FINISHED  a(40254336) in 414 ms
+2023-12-22 12:41:45.702 20060-20281 Fc#Operation            com.titan.smartworld                 D  FINISHED  a(40254336) in 414 ms
+2023-12-22 12:41:45.702 20060-20244 RxBle#Conn...ationQueue com.titan.smartworld                 D  FINISHED CharacteristicWriteOperation(110460414) in 395 ms
+2023-12-22 12:41:58.955 20060-20060 SURANA                  com.titan.smartworld                 D  id 16
+2023-12-22 12:41:59.058 20060-20060 NotificationCommand     com.titan.smartworld                 D  FcNotificationConfig.Flag.TELEPHONY: 0, FcNotificationType.TELEPHONY_INCOMING: 1
+2023-12-22 12:41:59.058 20060-20060 NotificationCommand     com.titan.smartworld                 D  FcNotificationConfig.isFlagEnabled(FcNotificationConfig.Flag.TELEPHONY): true
+2023-12-22 12:41:59.058 20060-20060 NotificationCommand     com.titan.smartworld                 D  After sending notification using FcMessageFeature.sendNotification(FcNotificationType.TELEPHONY_INCOMING, "dummyTitle", "dummyText")
+2023-12-22 12:41:59.060 20060-20280 Fc#Operation            com.titan.smartworld                 D  QUEUED  a(210014195)
+2023-12-22 12:41:59.061 20060-20280 Fc#Operation            com.titan.smartworld                 D  QUEUED  a(210014195)
+2023-12-22 12:41:59.062 20060-20281 Fc#Operation            com.titan.smartworld                 D  STARTED  a(210014195)
+2023-12-22 12:41:59.063 20060-20281 Fc#Operation            com.titan.smartworld                 D  STARTED  a(210014195)
+2023-12-22 12:41:59.064 20060-20281 Fc#Operation            com.titan.smartworld                 I  RUNNING  a(210014195)
+2023-12-22 12:41:59.068 20060-20281 Fc#Operation            com.titan.smartworld                 I  RUNNING  a(210014195)
+2023-12-22 12:41:59.069 20060-20283 Fc#ProtocolQueue        com.titan.smartworld                 V  sendProtocolPacket lock start
+2023-12-22 12:41:59.070 20060-20283 Fc#ProtocolQueue        com.titan.smartworld                 V  sendProtocolPacket lock start
+2023-12-22 12:41:59.071 20060-20283 Fc#FcConnection         com.titan.smartworld                 I  Send Data:AB 00 00 1B 50 FB 00 09 04 00 01 00 16 0A 64 75 6D 6D 79 54 69 74 6C 65 00 09 64 75 6D 6D 79 54 65 78 74
+2023-12-22 12:41:59.072 20060-20060 itan.smartworld         com.titan.smartworld                 V  RTSNotificationCommand.class, true, INFO
+2023-12-22 12:41:59.073 20060-20060 LogEventKt              com.titan.smartworld                 V  RTSNotificationCommand.class, true, INFO
+2023-12-22 12:41:59.078 20060-20283 Fc#FcConnection         com.titan.smartworld                 I  Send Data:AB 00 00 1B 50 FB 00 09 04 00 01 00 16 0A 64 75 6D 6D 79 54 69 74 6C 65 00 09 64 75 6D 6D 79 54 65 78 74
+2023-12-22 12:41:59.081 20060-20283 RxBle#Conn...ationQueue com.titan.smartworld                 D  QUEUED   CharacteristicWriteOperation(177224668)
+2023-12-22 12:41:59.083 20060-20244 RxBle#Conn...ationQueue com.titan.smartworld                 D  STARTED  CharacteristicWriteOperation(177224668)
+2023-12-22 12:41:59.083 20060-20244 RxBle#Conn...ationQueue com.titan.smartworld                 I  RUNNING  CharacteristicWriteOperation{MAC='AA:FF:EA:00:30:59', characteristic=[uuid='0000ff02-0000-1000-8000-00805f9b34fb', hexValue=[AB, 00, 00, 1B, 50, FB, 00, 09, 04, 00, 01, 00, 16, 0A, 64, 75, 6D, 6D, 79, 54, 69, 74, 6C, 65, 00, 09, 64, 75, 6D, 6D, 79, 54, 65, 78, 74]]}
+2023-12-22 12:41:59.492 20060-20081 RxBle#GattCallback      com.titan.smartworld                 I  MAC='AA:FF:EA:00:30:59'  onCharacteristicChanged(), value=[uuid='0000ff03-0000-1000-8000-00805f9b34fb', hexValue=[AB, 10, 00, 00, 00, 00, 00, 09]]
+2023-12-22 12:41:59.494 20060-20245 Fc#FcConnection         com.titan.smartworld                 I  Receive Data:AB 10 00 00 00 00 00 09
+2023-12-22 12:41:59.494 20060-20245 Fc#FcConnection         com.titan.smartworld                 I  Receive Data:AB 10 00 00 00 00 00 09
+2023-12-22 12:41:59.499 20060-20081 RxBle#GattCallback      com.titan.smartworld                 I  MAC='AA:FF:EA:00:30:59'    onCharacteristicWrite(), status=0, value=[uuid='0000ff02-0000-1000-8000-00805f9b34fb']
+2023-12-22 12:41:59.502 20060-20244 RxBle#Conn...ationQueue com.titan.smartworld                 D  FINISHED CharacteristicWriteOperation(177224668) in 418 ms
+2023-12-22 12:41:59.502 20060-20283 Fc#ProtocolQueue        com.titan.smartworld                 V  sendProtocolPacket lock end
+2023-12-22 12:41:59.503 20060-20283 Fc#ProtocolQueue        com.titan.smartworld                 V  sendProtocolPacket lock end
+2023-12-22 12:41:59.504 20060-20283 System.out              com.titan.smartworld                 I  addPhoneAndCameraListeners: 23
+2023-12-22 12:41:59.506 20060-20281 Fc#Operation            com.titan.smartworld                 D  FINISHED  a(210014195) in 444 ms
+2023-12-22 12:41:59.507 20060-20281 Fc#Operation            com.titan.smartworld                 D  FINISHED  a(210014195) in 444 ms
+2023-12-22 12:42:04.921 20060-20079 RxBle#GattCallback      com.titan.smartworld                 I  MAC='AA:FF:EA:00:30:59'  onCharacteristicChanged(), value=[uuid='0000ff03-0000-1000-8000-00805f9b34fb', hexValue=[AB, 00, 00, 05, 0A, F0, 00, 2C]]
+2023-12-22 12:42:04.926 20060-20245 Fc#FcConnection         com.titan.smartworld                 I  Receive Data:AB 00 00 05 0A F0 00 2C
+2023-12-22 12:42:04.927 20060-20245 Fc#FcConnection         com.titan.smartworld                 I  Receive Data:AB 00 00 05 0A F0 00 2C
+2023-12-22 12:42:05.218 20060-20079 RxBle#GattCallback      com.titan.smartworld                 I  MAC='AA:FF:EA:00:30:59'  onCharacteristicChanged(), value=[uuid='0000ff03-0000-1000-8000-00805f9b34fb', hexValue=[04, 00, 20, 00, 00]]
+2023-12-22 12:42:05.221 20060-20245 Fc#FcConnection         com.titan.smartworld                 I  Receive Data:04 00 20 00 00
+2023-12-22 12:42:05.222 20060-20245 Fc#FcConnection         com.titan.smartworld                 I  Receive Data:04 00 20 00 00
+2023-12-22 12:42:05.229 20060-20282 Fc#FcConnection         com.titan.smartworld                 I  Send Data:AB 10 00 00 00 00 00 2C
+2023-12-22 12:42:05.233 20060-20282 Fc#FcConnection         com.titan.smartworld                 I  Send Data:AB 10 00 00 00 00 00 2C
+2023-12-22 12:42:05.242 20060-20282 RxBle#Conn...ationQueue com.titan.smartworld                 D  QUEUED   CharacteristicWriteOperation(231167129)
+2023-12-22 12:42:05.245 20060-20244 RxBle#Conn...ationQueue com.titan.smartworld                 D  STARTED  CharacteristicWriteOperation(231167129)
+2023-12-22 12:42:05.248 20060-20244 RxBle#Conn...ationQueue com.titan.smartworld                 I  RUNNING  CharacteristicWriteOperation{MAC='AA:FF:EA:00:30:59', characteristic=[uuid='0000ff02-0000-1000-8000-00805f9b34fb', hexValue=[AB, 10, 00, 00, 00, 00, 00, 2C]]}
+2023-12-22 12:42:05.801 20060-20079 RxBle#GattCallback      com.titan.smartworld                 I  MAC='AA:FF:EA:00:30:59'    onCharacteristicWrite(), status=0, value=[uuid='0000ff02-0000-1000-8000-00805f9b34fb']
+2023-12-22 12:42:05.805 20060-20288 System.out              com.titan.smartworld                 I  addPhoneAndCameraListeners: 11
+2023-12-22 12:42:05.808 20060-20244 RxBle#Conn...ationQueue com.titan.smartworld                 D  FINISHED CharacteristicWriteOperation(231167129) in 562 ms
+2023-12-22 12:42:10.191 20060-20060 SURANA                  com.titan.smartworld                 D  id 1621
+2023-12-22 12:42:10.293 20060-20060 NotificationCommand     com.titan.smartworld                 D  FcNotificationConfig.Flag.OTHERS_APP: 31, FcNotificationType.OTHERS_APP: 255
+2023-12-22 12:42:10.293 20060-20060 NotificationCommand     com.titan.smartworld                 D  FcNotificationConfig.isFlagEnabled(FcNotificationConfig.Flag.OTHERS_APP): false
+2023-12-22 12:42:10.293 20060-20060 NotificationCommand     com.titan.smartworld                 D  After sending notification using FcMessageFeature.sendNotification(FcNotificationType.OTHERS_APP, "dummyTitle", "dummyText")
+2023-12-22 12:42:10.294 20060-20060 itan.smartworld         com.titan.smartworld                 V  RTSNotificationCommand.class, true, INFO
+2023-12-22 12:42:10.294 20060-20287 Fc#Operation            com.titan.smartworld                 D  QUEUED  a(221103978)
+2023-12-22 12:42:10.295 20060-20287 Fc#Operation            com.titan.smartworld                 D  QUEUED  a(221103978)
+2023-12-22 12:42:10.296 20060-20281 Fc#Operation            com.titan.smartworld                 D  STARTED  a(221103978)
+2023-12-22 12:42:10.297 20060-20281 Fc#Operation            com.titan.smartworld                 D  STARTED  a(221103978)
+2023-12-22 12:42:10.299 20060-20281 Fc#Operation            com.titan.smartworld                 I  RUNNING  a(221103978)
+2023-12-22 12:42:10.300 20060-20281 Fc#Operation            com.titan.smartworld                 I  RUNNING  a(221103978)
+2023-12-22 12:42:10.301 20060-20283 Fc#ProtocolQueue        com.titan.smartworld                 V  sendProtocolPacket lock start
+2023-12-22 12:42:10.301 20060-20283 Fc#ProtocolQueue        com.titan.smartworld                 V  sendProtocolPacket lock start
+2023-12-22 12:42:10.303 20060-20283 Fc#FcConnection         com.titan.smartworld                 I  Send Data:AB 00 00 1B 4D A9 00 0A 04 00 FF 00 16 0A 64 75 6D 6D 79 54 69 74 6C 65 00 09 64 75 6D 6D 79 54 65 78 74
+2023-12-22 12:42:10.308 20060-20060 LogEventKt              com.titan.smartworld                 V  RTSNotificationCommand.class, true, INFO
+2023-12-22 12:42:10.308 20060-20283 Fc#FcConnection         com.titan.smartworld                 I  Send Data:AB 00 00 1B 4D A9 00 0A 04 00 FF 00 16 0A 64 75 6D 6D 79 54 69 74 6C 65 00 09 64 75 6D 6D 79 54 65 78 74
+2023-12-22 12:42:10.309 20060-20283 RxBle#Conn...ationQueue com.titan.smartworld                 D  QUEUED   CharacteristicWriteOperation(87843931)
+2023-12-22 12:42:10.311 20060-20244 RxBle#Conn...ationQueue com.titan.smartworld                 D  STARTED  CharacteristicWriteOperation(87843931)
+2023-12-22 12:42:10.311 20060-20244 RxBle#Conn...ationQueue com.titan.smartworld                 I  RUNNING  CharacteristicWriteOperation{MAC='AA:FF:EA:00:30:59', characteristic=[uuid='0000ff02-0000-1000-8000-00805f9b34fb', hexValue=[AB, 00, 00, 1B, 4D, A9, 00, 0A, 04, 00, FF, 00, 16, 0A, 64, 75, 6D, 6D, 79, 54, 69, 74, 6C, 65, 00, 09, 64, 75, 6D, 6D, 79, 54, 65, 78, 74]]}
+2023-12-22 12:42:10.892 20060-20081 RxBle#GattCallback      com.titan.smartworld                 I  MAC='AA:FF:EA:00:30:59'  onCharacteristicChanged(), value=[uuid='0000ff03-0000-1000-8000-00805f9b34fb', hexValue=[AB, 10, 00, 00, 00, 00, 00, 0A]]
+2023-12-22 12:42:10.893 20060-20245 Fc#FcConnection         com.titan.smartworld                 I  Receive Data:AB 10 00 00 00 00 00 0A
+2023-12-22 12:42:10.894 20060-20079 RxBle#GattCallback      com.titan.smartworld                 I  MAC='AA:FF:EA:00:30:59'    onCharacteristicWrite(), status=0, value=[uuid='0000ff02-0000-1000-8000-00805f9b34fb']
+2023-12-22 12:42:10.894 20060-20245 Fc#FcConnection         com.titan.smartworld                 I  Receive Data:AB 10 00 00 00 00 00 0A
+2023-12-22 12:42:10.897 20060-20244 RxBle#Conn...ationQueue com.titan.smartworld                 D  FINISHED CharacteristicWriteOperation(87843931) in 586 ms
+2023-12-22 12:42:10.898 20060-20283 Fc#ProtocolQueue        com.titan.smartworld                 V  sendProtocolPacket lock end
+2023-12-22 12:42:10.899 20060-20283 Fc#ProtocolQueue        com.titan.smartworld                 V  sendProtocolPacket lock end
+2023-12-22 12:42:10.900 20060-20281 Fc#Operation            com.titan.smartworld                 D  FINISHED  a(221103978) in 603 ms
+2023-12-22 12:42:10.901 20060-20281 Fc#Operation            com.titan.smartworld                 D  FINISHED  a(221103978) in 603 ms
